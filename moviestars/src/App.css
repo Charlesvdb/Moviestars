@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.headercontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: red;
+}
+
+label{
+  color: red;
+  font-weight: bold;
+}
+
+select{
+  color: black;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.content{
+  margin-right: 400px;
+  margin-left: 250px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.collectioncontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1.5px solid red;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.textcontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.collectionname{
+  color: black;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.thumbnail{
+  color: black;
+  width: 150px;
+  height: 150px;
+  margin-left: 23px;
+}
+
+.recursion{
+  color: black;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.assetcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1.5px solid black;
+  margin-bottom: 8px;
+  padding: 17px;
+}
+
+.assetimage{
+  width: 120px;
+  height: 120px;
+}
+
+.assettextcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.assetname{
+  color: black;
+  font-weight: bolder;  
+}
+
+button{
+  box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#ce0100;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+}
